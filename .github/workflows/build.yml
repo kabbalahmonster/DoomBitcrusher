@@ -56,11 +56,59 @@ jobs:
         name: DoomBitcrusher-Linux-x64
         path: build/DoomBitcrusher-Linux-x64.tar.gz
     
-    - name: Create Release
+    - name: Upload to release
       if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
       uses: softprops/action-gh-release@v1
       with:
         files: build/DoomBitcrusher-Linux-x64.tar.gz
+        tag_name: v1.0.${{ github.run_number }}
+        name: DoomBitcrusher v1.0.${{ github.run_number }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-windows:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    
+    - name: Setup MSVC
+      uses: microsoft/setup-msbuild@v2
+    
+    - name: Configure CMake
+      run: |
+        mkdir build
+        cd build
+        cmake .. -G "Visual Studio 17 2022" -A x64
+    
+    - name: Build
+      run: |
+        cd build
+        cmake --build . --config Release --parallel
+    
+    - name: Package
+      run: |
+        cd build
+        mkdir DoomBitcrusher-Windows
+        xcopy /E /I DoomBitcrusher_artefacts\Release\VST3\DoomBitcrusher.vst3 DoomBitcrusher-Windows\DoomBitcrusher.vst3 2>nul || echo "VST3 not found"
+        copy DoomBitcrusher_artefacts\Release\Standalone\DoomBitcrusher.exe DoomBitcrusher-Windows\ 2>nul || echo "Standalone not found"
+        tar -czf DoomBitcrusher-Windows-x64.tar.gz DoomBitcrusher-Windows\
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: DoomBitcrusher-Windows-x64
+        path: build/DoomBitcrusher-Windows-x64.tar.gz
+    
+    - name: Upload to release
+      if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: build/DoomBitcrusher-Windows-x64.tar.gz
         tag_name: v1.0.${{ github.run_number }}
         name: DoomBitcrusher v1.0.${{ github.run_number }}
         draft: false
