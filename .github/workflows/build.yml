@@ -1,0 +1,69 @@
+name: Build DoomBitcrusher
+
+on:
+  push:
+    branches: [ master, main ]
+  workflow_dispatch:
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          cmake \
+          libasound2-dev \
+          libfreetype6-dev \
+          libfontconfig1-dev \
+          libx11-dev \
+          libxrandr-dev \
+          libxinerama-dev \
+          libxcursor-dev \
+          libxext-dev \
+          libgtk-3-dev \
+          libwebkit2gtk-4.0-dev
+    
+    - name: Configure CMake
+      run: |
+        mkdir -p build
+        cd build
+        cmake .. -DCMAKE_BUILD_TYPE=Release
+    
+    - name: Build
+      run: |
+        cd build
+        cmake --build . --config Release --parallel $(nproc)
+    
+    - name: Package
+      run: |
+        cd build
+        mkdir -p DoomBitcrusher-Linux
+        cp -r DoomBitcrusher_artefacts/Release/VST3/DoomBitcrusher.vst3 DoomBitcrusher-Linux/ 2>/dev/null || true
+        cp DoomBitcrusher_artefacts/Release/Standalone/DoomBitcrusher DoomBitcrusher-Linux/ 2>/dev/null || true
+        tar -czf DoomBitcrusher-Linux-x64.tar.gz DoomBitcrusher-Linux/
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: DoomBitcrusher-Linux-x64
+        path: build/DoomBitcrusher-Linux-x64.tar.gz
+    
+    - name: Create Release
+      if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: build/DoomBitcrusher-Linux-x64.tar.gz
+        tag_name: v1.0.${{ github.run_number }}
+        name: DoomBitcrusher v1.0.${{ github.run_number }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
