@@ -1,0 +1,2119 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/uname"
+      - "/home/linuxbrew/.linuxbrew/sbin/uname"
+      - "/home/fuzzbox/.npm-global/bin/uname"
+      - "/home/fuzzbox/.local/bin/uname"
+      - "/home/fuzzbox/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.18.6-200.fc43.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gmake"
+      - "/home/linuxbrew/.linuxbrew/sbin/gmake"
+      - "/home/fuzzbox/.npm-global/bin/gmake"
+      - "/home/fuzzbox/.local/bin/gmake"
+      - "/home/fuzzbox/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/"
+    found: "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/linuxbrew/.linuxbrew/bin/gcc-16 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/4.4.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar-16"
+      - "ar"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/ar-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/ar-16"
+      - "/home/fuzzbox/.npm-global/bin/ar-16"
+      - "/home/fuzzbox/.local/bin/ar-16"
+      - "/home/fuzzbox/bin/ar-16"
+      - "/usr/local/bin/ar-16"
+      - "/usr/bin/ar-16"
+      - "/bin/ar-16"
+      - "/home/fuzzbox/.nvm/current/bin/ar-16"
+      - "/home/fuzzbox/.fnm/current/bin/ar-16"
+      - "/home/fuzzbox/.volta/bin/ar-16"
+      - "/home/fuzzbox/.asdf/shims/ar-16"
+      - "/home/fuzzbox/.local/share/pnpm/ar-16"
+      - "/home/fuzzbox/.bun/bin/ar-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib-16"
+      - "ranlib"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/ranlib-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/ranlib-16"
+      - "/home/fuzzbox/.npm-global/bin/ranlib-16"
+      - "/home/fuzzbox/.local/bin/ranlib-16"
+      - "/home/fuzzbox/bin/ranlib-16"
+      - "/usr/local/bin/ranlib-16"
+      - "/usr/bin/ranlib-16"
+      - "/bin/ranlib-16"
+      - "/home/fuzzbox/.nvm/current/bin/ranlib-16"
+      - "/home/fuzzbox/.fnm/current/bin/ranlib-16"
+      - "/home/fuzzbox/.volta/bin/ranlib-16"
+      - "/home/fuzzbox/.asdf/shims/ranlib-16"
+      - "/home/fuzzbox/.local/share/pnpm/ranlib-16"
+      - "/home/fuzzbox/.bun/bin/ranlib-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip-16"
+      - "strip"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/strip-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/strip-16"
+      - "/home/fuzzbox/.npm-global/bin/strip-16"
+      - "/home/fuzzbox/.local/bin/strip-16"
+      - "/home/fuzzbox/bin/strip-16"
+      - "/usr/local/bin/strip-16"
+      - "/usr/bin/strip-16"
+      - "/bin/strip-16"
+      - "/home/fuzzbox/.nvm/current/bin/strip-16"
+      - "/home/fuzzbox/.fnm/current/bin/strip-16"
+      - "/home/fuzzbox/.volta/bin/strip-16"
+      - "/home/fuzzbox/.asdf/shims/strip-16"
+      - "/home/fuzzbox/.local/share/pnpm/strip-16"
+      - "/home/fuzzbox/.bun/bin/strip-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld-16"
+      - "ld"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/ld-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/ld-16"
+      - "/home/fuzzbox/.npm-global/bin/ld-16"
+      - "/home/fuzzbox/.local/bin/ld-16"
+      - "/home/fuzzbox/bin/ld-16"
+      - "/usr/local/bin/ld-16"
+      - "/usr/bin/ld-16"
+      - "/bin/ld-16"
+      - "/home/fuzzbox/.nvm/current/bin/ld-16"
+      - "/home/fuzzbox/.fnm/current/bin/ld-16"
+      - "/home/fuzzbox/.volta/bin/ld-16"
+      - "/home/fuzzbox/.asdf/shims/ld-16"
+      - "/home/fuzzbox/.local/share/pnpm/ld-16"
+      - "/home/fuzzbox/.bun/bin/ld-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm-16"
+      - "nm"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/nm-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/nm-16"
+      - "/home/fuzzbox/.npm-global/bin/nm-16"
+      - "/home/fuzzbox/.local/bin/nm-16"
+      - "/home/fuzzbox/bin/nm-16"
+      - "/usr/local/bin/nm-16"
+      - "/usr/bin/nm-16"
+      - "/bin/nm-16"
+      - "/home/fuzzbox/.nvm/current/bin/nm-16"
+      - "/home/fuzzbox/.fnm/current/bin/nm-16"
+      - "/home/fuzzbox/.volta/bin/nm-16"
+      - "/home/fuzzbox/.asdf/shims/nm-16"
+      - "/home/fuzzbox/.local/share/pnpm/nm-16"
+      - "/home/fuzzbox/.bun/bin/nm-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump-16"
+      - "objdump"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/objdump-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/objdump-16"
+      - "/home/fuzzbox/.npm-global/bin/objdump-16"
+      - "/home/fuzzbox/.local/bin/objdump-16"
+      - "/home/fuzzbox/bin/objdump-16"
+      - "/usr/local/bin/objdump-16"
+      - "/usr/bin/objdump-16"
+      - "/bin/objdump-16"
+      - "/home/fuzzbox/.nvm/current/bin/objdump-16"
+      - "/home/fuzzbox/.fnm/current/bin/objdump-16"
+      - "/home/fuzzbox/.volta/bin/objdump-16"
+      - "/home/fuzzbox/.asdf/shims/objdump-16"
+      - "/home/fuzzbox/.local/share/pnpm/objdump-16"
+      - "/home/fuzzbox/.bun/bin/objdump-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy-16"
+      - "objcopy"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/objcopy-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/objcopy-16"
+      - "/home/fuzzbox/.npm-global/bin/objcopy-16"
+      - "/home/fuzzbox/.local/bin/objcopy-16"
+      - "/home/fuzzbox/bin/objcopy-16"
+      - "/usr/local/bin/objcopy-16"
+      - "/usr/bin/objcopy-16"
+      - "/bin/objcopy-16"
+      - "/home/fuzzbox/.nvm/current/bin/objcopy-16"
+      - "/home/fuzzbox/.fnm/current/bin/objcopy-16"
+      - "/home/fuzzbox/.volta/bin/objcopy-16"
+      - "/home/fuzzbox/.asdf/shims/objcopy-16"
+      - "/home/fuzzbox/.local/share/pnpm/objcopy-16"
+      - "/home/fuzzbox/.bun/bin/objcopy-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf-16"
+      - "readelf"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/readelf-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/readelf-16"
+      - "/home/fuzzbox/.npm-global/bin/readelf-16"
+      - "/home/fuzzbox/.local/bin/readelf-16"
+      - "/home/fuzzbox/bin/readelf-16"
+      - "/usr/local/bin/readelf-16"
+      - "/usr/bin/readelf-16"
+      - "/bin/readelf-16"
+      - "/home/fuzzbox/.nvm/current/bin/readelf-16"
+      - "/home/fuzzbox/.fnm/current/bin/readelf-16"
+      - "/home/fuzzbox/.volta/bin/readelf-16"
+      - "/home/fuzzbox/.asdf/shims/readelf-16"
+      - "/home/fuzzbox/.local/share/pnpm/readelf-16"
+      - "/home/fuzzbox/.bun/bin/readelf-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool-16"
+      - "dlltool"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/dlltool-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/dlltool-16"
+      - "/home/fuzzbox/.npm-global/bin/dlltool-16"
+      - "/home/fuzzbox/.local/bin/dlltool-16"
+      - "/home/fuzzbox/bin/dlltool-16"
+      - "/usr/local/bin/dlltool-16"
+      - "/usr/bin/dlltool-16"
+      - "/bin/dlltool-16"
+      - "/home/fuzzbox/.nvm/current/bin/dlltool-16"
+      - "/home/fuzzbox/.fnm/current/bin/dlltool-16"
+      - "/home/fuzzbox/.volta/bin/dlltool-16"
+      - "/home/fuzzbox/.asdf/shims/dlltool-16"
+      - "/home/fuzzbox/.local/share/pnpm/dlltool-16"
+      - "/home/fuzzbox/.bun/bin/dlltool-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line-16"
+      - "addr2line"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/addr2line-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/addr2line-16"
+      - "/home/fuzzbox/.npm-global/bin/addr2line-16"
+      - "/home/fuzzbox/.local/bin/addr2line-16"
+      - "/home/fuzzbox/bin/addr2line-16"
+      - "/usr/local/bin/addr2line-16"
+      - "/usr/bin/addr2line-16"
+      - "/bin/addr2line-16"
+      - "/home/fuzzbox/.nvm/current/bin/addr2line-16"
+      - "/home/fuzzbox/.fnm/current/bin/addr2line-16"
+      - "/home/fuzzbox/.volta/bin/addr2line-16"
+      - "/home/fuzzbox/.asdf/shims/addr2line-16"
+      - "/home/fuzzbox/.local/share/pnpm/addr2line-16"
+      - "/home/fuzzbox/.bun/bin/addr2line-16"
+    found: "/home/linuxbrew/.linuxbrew/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi-16"
+      - "tapi"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/tapi-16"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi-16"
+      - "/home/fuzzbox/.npm-global/bin/tapi-16"
+      - "/home/fuzzbox/.local/bin/tapi-16"
+      - "/home/fuzzbox/bin/tapi-16"
+      - "/usr/local/bin/tapi-16"
+      - "/usr/bin/tapi-16"
+      - "/bin/tapi-16"
+      - "/home/fuzzbox/.nvm/current/bin/tapi-16"
+      - "/home/fuzzbox/.fnm/current/bin/tapi-16"
+      - "/home/fuzzbox/.volta/bin/tapi-16"
+      - "/home/fuzzbox/.asdf/shims/tapi-16"
+      - "/home/fuzzbox/.local/share/pnpm/tapi-16"
+      - "/home/fuzzbox/.bun/bin/tapi-16"
+      - "/home/linuxbrew/.linuxbrew/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi"
+      - "/home/fuzzbox/.npm-global/bin/tapi"
+      - "/home/fuzzbox/.local/bin/tapi"
+      - "/home/fuzzbox/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/home/fuzzbox/.nvm/current/bin/tapi"
+      - "/home/fuzzbox/.fnm/current/bin/tapi"
+      - "/home/fuzzbox/.volta/bin/tapi"
+      - "/home/fuzzbox/.asdf/shims/tapi"
+      - "/home/fuzzbox/.local/share/pnpm/tapi"
+      - "/home/fuzzbox/.bun/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-16.1"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-16.1"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.local/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/bin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16.1"
+      - "/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.volta/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.asdf/shims/gcc-ar-16.1"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ar-16.1"
+      - "/home/fuzzbox/.bun/bin/gcc-ar-16.1"
+    found: "/home/linuxbrew/.linuxbrew/bin/gcc-ar-16"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-16.1"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.local/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/bin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.volta/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.asdf/shims/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.bun/bin/gcc-ranlib-16.1"
+    found: "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-16"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/"
+    found: "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/linuxbrew/.linuxbrew/bin/g++-16 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/4.4.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-16.1"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-16.1"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.local/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/bin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16.1"
+      - "/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.volta/bin/gcc-ar-16.1"
+      - "/home/fuzzbox/.asdf/shims/gcc-ar-16.1"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ar-16.1"
+      - "/home/fuzzbox/.bun/bin/gcc-ar-16.1"
+    found: "/home/linuxbrew/.linuxbrew/bin/gcc-ar-16"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-16.1"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.local/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/bin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.volta/bin/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.asdf/shims/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ranlib-16.1"
+      - "/home/fuzzbox/.bun/bin/gcc-ranlib-16.1"
+    found: "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-16"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY"
+      binary: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11e97/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_11e97.dir/build.make CMakeFiles/cmTC_11e97.dir/build
+        gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY'
+        Building C object CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o
+        /home/linuxbrew/.linuxbrew/bin/gcc-16   -v -o CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs
+        COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-16
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_11e97.dir/'
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/ /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include -quiet -dumpdir CMakeFiles/cmTC_11e97.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccUmjkFs.s
+        GNU C23 (Homebrew GCC 16.1.0) version 16.1.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+        ignoring nonexistent directory "/usr/include/x86_64-linux-gnu"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include
+         /home/linuxbrew/.linuxbrew/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 6a9d2f58e431286a92bb3652c66e83d2
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_11e97.dir/'
+         as -v --64 -o CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o /tmp/ccUmjkFs.s
+        GNU assembler version 2.46.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_11e97
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e97.dir/link.txt --verbose=1
+        Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs
+        COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-16
+        COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_11e97' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_11e97.'
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccroE8Kw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_11e97 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o
+        collect2 version 16.1.0
+        /home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccroE8Kw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_11e97 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o
+        GNU ld (GNU Binutils) 2.46.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_11e97' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_11e97.'
+        /home/linuxbrew/.linuxbrew/bin/gcc-16  -v -Wl,-v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -o cmTC_11e97
+        gmake[1]: Leaving directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include]
+          add: [/home/linuxbrew/.linuxbrew/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include]
+        collapse include dir [/home/linuxbrew/.linuxbrew/include] ==> [/home/linuxbrew/.linuxbrew/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include;/home/linuxbrew/.linuxbrew/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_11e97/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_11e97.dir/build.make CMakeFiles/cmTC_11e97.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-JK77BY']
+        ignore line: [Building C object CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/gcc-16   -v -o CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs]
+        ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-16]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_11e97.dir/']
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/ /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCCompilerABI.c -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include -quiet -dumpdir CMakeFiles/cmTC_11e97.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccUmjkFs.s]
+        ignore line: [GNU C23 (Homebrew GCC 16.1.0) version 16.1.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"]
+        ignore line: [ignoring nonexistent directory "/usr/include/x86_64-linux-gnu"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include]
+        ignore line: [ /home/linuxbrew/.linuxbrew/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 6a9d2f58e431286a92bb3652c66e83d2]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_11e97.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o /tmp/ccUmjkFs.s]
+        ignore line: [GNU assembler version 2.46.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_11e97]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e97.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs]
+        ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/gcc-16]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_11e97' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_11e97.']
+        link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccroE8Kw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_11e97 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccroE8Kw.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [--dynamic-linker] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/lib/gcc/current] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_11e97] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/home/linuxbrew/.linuxbrew/lib/gcc/current] ==> dir [/home/linuxbrew/.linuxbrew/lib/gcc/current]
+          arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        ignore line: [collect2 version 16.1.0]
+        link line: [/home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccroE8Kw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_11e97 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> linker [/home/linuxbrew/.linuxbrew/bin/ld]
+        link line: [/home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccroE8Kw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_11e97 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccroE8Kw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_11e97 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_11e97.dir/CMakeCCompilerABI.c.o -rpath /home/linuxbrew/.linuxbrew/lib -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        linker tool for 'C': /home/linuxbrew/.linuxbrew/bin/ld -m;elf
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/home/linuxbrew/.linuxbrew/lib/gcc/current] ==> [/home/linuxbrew/.linuxbrew/lib/gcc/current]
+        collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+        implicit libs: [gcc;gcc_s_asneeded;atomic_asneeded;c;gcc;gcc_s_asneeded]
+        implicit objs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current;/lib;/usr/lib;/home/linuxbrew/.linuxbrew/lib/gcc/current;/home/linuxbrew/.linuxbrew/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/home/linuxbrew/.linuxbrew/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q"
+      binary: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d7d6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0d7d6.dir/build.make CMakeFiles/cmTC_0d7d6.dir/build
+        gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q'
+        Building CXX object CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o
+        /home/linuxbrew/.linuxbrew/bin/g++-16   -v -o CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs
+        COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-16
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d7d6.dir/'
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/ -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include -quiet -dumpdir CMakeFiles/cmTC_0d7d6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccPg8lnh.s
+        GNU C++20 (Homebrew GCC 16.1.0) version 16.1.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/x86_64-pc-linux-gnu"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/backward"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"
+        ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"
+        ignoring nonexistent directory "/usr/include/x86_64-linux-gnu"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/x86_64-pc-linux-gnu
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/backward
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include
+         /home/linuxbrew/.linuxbrew/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 787d2c7d072c3d81c1b99cb2b4bf0478
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d7d6.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPg8lnh.s
+        GNU assembler version 2.46.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.1
+        COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_0d7d6
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d7d6.dir/link.txt --verbose=1
+        Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs
+        COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-16
+        COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d7d6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d7d6.'
+         /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAxKYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_0d7d6 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o
+        collect2 version 16.1.0
+        /home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAxKYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_0d7d6 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o
+        GNU ld (GNU Binutils) 2.46.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d7d6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d7d6.'
+        /home/linuxbrew/.linuxbrew/bin/g++-16  -v -Wl,-v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0d7d6
+        gmake[1]: Leaving directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/x86_64-pc-linux-gnu]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/backward]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed]
+          add: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include]
+          add: [/home/linuxbrew/.linuxbrew/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include/c++/16]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/x86_64-pc-linux-gnu] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include/c++/16/x86_64-pc-linux-gnu]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/backward] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include/c++/16/backward]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed]
+        collapse include dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include]
+        collapse include dir [/home/linuxbrew/.linuxbrew/include] ==> [/home/linuxbrew/.linuxbrew/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include/c++/16;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include/c++/16/x86_64-pc-linux-gnu;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include/c++/16/backward;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/include;/home/linuxbrew/.linuxbrew/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0d7d6/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0d7d6.dir/build.make CMakeFiles/cmTC_0d7d6.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/CMakeFiles/CMakeScratch/TryCompile-lruK5q']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/g++-16   -v -o CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -c /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs]
+        ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-16]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d7d6.dir/']
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -iprefix /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/ -D_GNU_SOURCE /home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -isysroot /home/linuxbrew/.linuxbrew/nonexistent -idirafter /home/linuxbrew/.linuxbrew/include -idirafter /usr/include/x86_64-linux-gnu -idirafter /usr/include -quiet -dumpdir CMakeFiles/cmTC_0d7d6.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccPg8lnh.s]
+        ignore line: [GNU C++20 (Homebrew GCC 16.1.0) version 16.1.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/x86_64-pc-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/backward"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/home/linuxbrew/.linuxbrew/nonexistent/usr/include"]
+        ignore line: [ignoring nonexistent directory "/usr/include/x86_64-linux-gnu"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/x86_64-pc-linux-gnu]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../../../../include/c++/16/backward]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/include-fixed]
+        ignore line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../include]
+        ignore line: [ /home/linuxbrew/.linuxbrew/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 787d2c7d072c3d81c1b99cb2b4bf0478]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d7d6.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPg8lnh.s]
+        ignore line: [GNU assembler version 2.46.1 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.1]
+        ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_0d7d6]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d7d6.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/specs]
+        ignore line: [COLLECT_GCC=/home/linuxbrew/.linuxbrew/bin/g++-16]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/linuxbrew/.linuxbrew/opt/gcc --libdir=/home/linuxbrew/.linuxbrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-16 --with-gmp=/home/linuxbrew/.linuxbrew/opt/gmp --with-mpfr=/home/linuxbrew/.linuxbrew/opt/mpfr --with-mpc=/home/linuxbrew/.linuxbrew/opt/libmpc --with-isl=/home/linuxbrew/.linuxbrew/opt/isl --with-zstd=/home/linuxbrew/.linuxbrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --disable-multilib --enable-default-pie]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COMPILER_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0d7d6' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0d7d6.']
+        link line: [ /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAxKYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_0d7d6 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cclAxKYM.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [--dynamic-linker] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/lib/ld.so] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/lib/gcc/current] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0d7d6] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc]
+          arg [-L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../..] ==> dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-L/home/linuxbrew/.linuxbrew/lib/gcc/current] ==> dir [/home/linuxbrew/.linuxbrew/lib/gcc/current]
+          arg [-L/home/linuxbrew/.linuxbrew/lib] ==> dir [/home/linuxbrew/.linuxbrew/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-rpath] ==> ignore
+          arg [/home/linuxbrew/.linuxbrew/lib] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        ignore line: [collect2 version 16.1.0]
+        link line: [/home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAxKYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_0d7d6 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> linker [/home/linuxbrew/.linuxbrew/bin/ld]
+        link line: [/home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAxKYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_0d7d6 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/home/linuxbrew/.linuxbrew/bin/ld -plugin /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cclAxKYM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 --dynamic-linker /home/linuxbrew/.linuxbrew/lib/ld.so -rpath /home/linuxbrew/.linuxbrew/lib/gcc/current -pie -o cmTC_0d7d6 /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16 -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -L/home/linuxbrew/.linuxbrew/lib/gcc/current -L/home/linuxbrew/.linuxbrew/lib -v CMakeFiles/cmTC_0d7d6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -rpath /home/linuxbrew/.linuxbrew/lib -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o /home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        linker tool for 'CXX': /home/linuxbrew/.linuxbrew/bin/ld -m;elf
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+        collapse obj [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc]
+        collapse library dir [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/../../..] ==> [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        collapse library dir [/home/linuxbrew/.linuxbrew/lib/gcc/current] ==> [/home/linuxbrew/.linuxbrew/lib/gcc/current]
+        collapse library dir [/home/linuxbrew/.linuxbrew/lib] ==> [/home/linuxbrew/.linuxbrew/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/Scrt1.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crti.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16/crtn.o]
+        implicit dirs: [/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/x86_64-pc-linux-gnu/16;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc;/home/linuxbrew/.linuxbrew/Cellar/gcc/16.1.0/lib/gcc/current;/lib;/usr/lib;/home/linuxbrew/.linuxbrew/lib/gcc/current;/home/linuxbrew/.linuxbrew/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/linuxbrew/.linuxbrew/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "JUCE/extras/Build/CMake/JUCECheckAtomic.cmake:73 (try_compile)"
+      - "JUCE/extras/Build/CMake/JUCECheckAtomic.cmake:128 (_juce_create_atomic_target)"
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:57 (include)"
+      - "JUCE/CMakeLists.txt:50 (include)"
+    directories:
+      source: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_QAOliy59E0nvkTEN/CMakeFiles/CMakeTmp"
+      binary: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_QAOliy59E0nvkTEN/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_QAOliy59E0nvkTEN/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0828f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0828f.dir/build.make CMakeFiles/cmTC_0828f.dir/build
+        gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_QAOliy59E0nvkTEN/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_0828f.dir/check_atomic_UT8LrOHlaCNt2xOq.cpp.o
+        /home/linuxbrew/.linuxbrew/bin/g++-16   -std=c++17 -o CMakeFiles/cmTC_0828f.dir/check_atomic_UT8LrOHlaCNt2xOq.cpp.o -c /home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_UT8LrOHlaCNt2xOq.cpp
+        Linking CXX executable cmTC_0828f
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0828f.dir/link.txt --verbose=1
+        /home/linuxbrew/.linuxbrew/bin/g++-16 CMakeFiles/cmTC_0828f.dir/check_atomic_UT8LrOHlaCNt2xOq.cpp.o -o cmTC_0828f
+        gmake[1]: Leaving directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_QAOliy59E0nvkTEN/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:63 (try_compile)"
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:75 (_juce_find_target_architecture)"
+      - "JUCE/CMakeLists.txt:50 (include)"
+    directories:
+      source: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/CMakeFiles/CMakeTmp"
+      binary: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_08e1c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_08e1c.dir/build.make CMakeFiles/cmTC_08e1c.dir/build
+        gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_08e1c.dir/juce_runtime_arch_detection.cpp.o
+        /home/linuxbrew/.linuxbrew/bin/g++-16   -std=gnu++17 -o CMakeFiles/cmTC_08e1c.dir/juce_runtime_arch_detection.cpp.o -c /home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp
+        /home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp:56:4: error: #error JUCE_ARCH x86_64
+           56 |   #error JUCE_ARCH x86_64
+              |    ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_08e1c.dir/build.make:81: CMakeFiles/cmTC_08e1c.dir/juce_runtime_arch_detection.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:134: cmTC_08e1c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:379 (find_package)"
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:631 (_juce_create_pkgconfig_target)"
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:674 (juce_add_module)"
+      - "JUCE/modules/CMakeLists.txt:33 (juce_add_modules)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/linuxbrew/.linuxbrew/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/pkg-config"
+      - "/home/linuxbrew/.linuxbrew/bin/pkgconf"
+      - "/home/linuxbrew/.linuxbrew/sbin/pkg-config"
+      - "/home/linuxbrew/.linuxbrew/sbin/pkgconf"
+      - "/home/fuzzbox/.npm-global/bin/pkg-config"
+      - "/home/fuzzbox/.npm-global/bin/pkgconf"
+      - "/home/fuzzbox/.local/bin/pkg-config"
+      - "/home/fuzzbox/.local/bin/pkgconf"
+      - "/home/fuzzbox/bin/pkg-config"
+      - "/home/fuzzbox/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/linuxbrew/.linuxbrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "JUCE/extras/Build/CMake/JUCECheckAtomic.cmake:73 (try_compile)"
+      - "JUCE/extras/Build/CMake/JUCECheckAtomic.cmake:128 (_juce_create_atomic_target)"
+      - "JUCE/extras/Build/CMake/JUCEModuleSupport.cmake:57 (include)"
+      - "JUCE/CMakeLists.txt:50 (include)"
+    directories:
+      source: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_mTiNXGjNK6K7ikuI/CMakeFiles/CMakeTmp"
+      binary: "/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_mTiNXGjNK6K7ikuI/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_mTiNXGjNK6K7ikuI/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /home/linuxbrew/.linuxbrew/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2624d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2624d.dir/build.make CMakeFiles/cmTC_2624d.dir/build
+        gmake[1]: Entering directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_mTiNXGjNK6K7ikuI/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_2624d.dir/check_atomic_Qirm8pUKVUJEqeXI.cpp.o
+        /home/linuxbrew/.linuxbrew/bin/g++-16   -std=c++17 -o CMakeFiles/cmTC_2624d.dir/check_atomic_Qirm8pUKVUJEqeXI.cpp.o -c /home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_Qirm8pUKVUJEqeXI.cpp
+        Linking CXX executable cmTC_2624d
+        /home/linuxbrew/.linuxbrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2624d.dir/link.txt --verbose=1
+        /home/linuxbrew/.linuxbrew/bin/g++-16 CMakeFiles/cmTC_2624d.dir/check_atomic_Qirm8pUKVUJEqeXI.cpp.o -o cmTC_2624d
+        gmake[1]: Leaving directory '/home/fuzzbox/.openclaw/workspace/vst-dev/build/cmake/JUCE/check_atomic_dir_mTiNXGjNK6K7ikuI/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+...

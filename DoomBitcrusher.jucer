@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DoomBitcrusher" name="DoomBitcrusher" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" companyName="Cult of the Shell" companyWebsite="cultoftheshell.xyz"
+              companyEmail="doom@cultoftheshell.xyz" pluginFormats="buildVST3,buildStandalone"
+              pluginName="Doom Bitcrusher" pluginDesc="A grimey bitcrusher plugin"
+              pluginManufacturer="Cult" pluginManufacturerCode="Cult" pluginCode="Doom"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="DoomBitcrusherAU"
+              pluginVST3Category="Distortion" cppLanguageStandard="17">
+  <MAINGROUP id="src" name="Source">
+    <GROUP id="src" name="src">
+      <FILE id="plugin" name="BitcrusherPlugin.cpp" compile="1" resource="0"
+            file="src/BitcrusherPlugin.cpp"/>
+      <FILE id="plugin_h" name="BitcrusherPlugin.h" compile="0" resource="0"
+            file="src/BitcrusherPlugin.h"/>
+      <FILE id="editor" name="BitcrusherEditor.cpp" compile="1" resource="0"
+            file="src/BitcrusherEditor.cpp"/>
+      <FILE id="editor_h" name="BitcrusherEditor.h" compile="0" resource="0"
+            file="src/BitcrusherEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="1"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="build/linux" extraCompilerFlags="-Wall -Wextra">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="DoomBitcrusher"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="DoomBitcrusher"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/home/fuzzbox/.openclaw/workspace/vst-dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

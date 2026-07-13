@@ -1,0 +1,1111 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/uname"
+      - "/home/linuxbrew/.linuxbrew/sbin/uname"
+      - "/home/fuzzbox/.npm-global/bin/uname"
+      - "/home/fuzzbox/.local/bin/uname"
+      - "/home/fuzzbox/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.18.6-200.fc43.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/gmake"
+      - "/home/linuxbrew/.linuxbrew/sbin/gmake"
+      - "/home/fuzzbox/.npm-global/bin/gmake"
+      - "/home/fuzzbox/.local/bin/gmake"
+      - "/home/fuzzbox/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/usr/bin/gcc"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/"
+    found: "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/fuzzbox/.openclaw/workspace/vst-dev/build/CMakeFiles/4.4.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/bin/dlltool"
+      - "/home/linuxbrew/.linuxbrew/sbin/dlltool"
+      - "/home/fuzzbox/.npm-global/bin/dlltool"
+      - "/home/fuzzbox/.local/bin/dlltool"
+      - "/home/fuzzbox/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/bin/dlltool"
+      - "/home/fuzzbox/.nvm/current/bin/dlltool"
+      - "/home/fuzzbox/.fnm/current/bin/dlltool"
+      - "/home/fuzzbox/.volta/bin/dlltool"
+      - "/home/fuzzbox/.asdf/shims/dlltool"
+      - "/home/fuzzbox/.local/share/pnpm/dlltool"
+      - "/home/fuzzbox/.bun/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/bin/tapi"
+      - "/home/linuxbrew/.linuxbrew/sbin/tapi"
+      - "/home/fuzzbox/.npm-global/bin/tapi"
+      - "/home/fuzzbox/.local/bin/tapi"
+      - "/home/fuzzbox/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/bin/tapi"
+      - "/home/fuzzbox/.nvm/current/bin/tapi"
+      - "/home/fuzzbox/.fnm/current/bin/tapi"
+      - "/home/fuzzbox/.volta/bin/tapi"
+      - "/home/fuzzbox/.asdf/shims/tapi"
+      - "/home/fuzzbox/.local/share/pnpm/tapi"
+      - "/home/fuzzbox/.bun/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-15.2"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-15.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-15.2"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ar-15.2"
+      - "/home/fuzzbox/.local/bin/gcc-ar-15.2"
+      - "/home/fuzzbox/bin/gcc-ar-15.2"
+      - "/usr/local/bin/gcc-ar-15.2"
+      - "/bin/gcc-ar-15.2"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ar-15.2"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ar-15.2"
+      - "/home/fuzzbox/.volta/bin/gcc-ar-15.2"
+      - "/home/fuzzbox/.asdf/shims/gcc-ar-15.2"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ar-15.2"
+      - "/home/fuzzbox/.bun/bin/gcc-ar-15.2"
+      - "/usr/bin/gcc-ar-15"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-15"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ar-15"
+      - "/home/fuzzbox/.local/bin/gcc-ar-15"
+      - "/home/fuzzbox/bin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/bin/gcc-ar-15"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ar-15"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ar-15"
+      - "/home/fuzzbox/.volta/bin/gcc-ar-15"
+      - "/home/fuzzbox/.asdf/shims/gcc-ar-15"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ar-15"
+      - "/home/fuzzbox/.bun/bin/gcc-ar-15"
+      - "/usr/bin/gcc-ar15"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ar15"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar15"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ar15"
+      - "/home/fuzzbox/.local/bin/gcc-ar15"
+      - "/home/fuzzbox/bin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/bin/gcc-ar15"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ar15"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ar15"
+      - "/home/fuzzbox/.volta/bin/gcc-ar15"
+      - "/home/fuzzbox/.asdf/shims/gcc-ar15"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ar15"
+      - "/home/fuzzbox/.bun/bin/gcc-ar15"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/linuxbrew/.linuxbrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/linuxbrew/.linuxbrew/bin/"
+      - "/home/linuxbrew/.linuxbrew/sbin/"
+      - "/home/fuzzbox/.npm-global/bin/"
+      - "/home/fuzzbox/.local/bin/"
+      - "/home/fuzzbox/bin/"
+      - "/usr/local/bin/"
+      - "/bin/"
+      - "/home/fuzzbox/.nvm/current/bin/"
+      - "/home/fuzzbox/.fnm/current/bin/"
+      - "/home/fuzzbox/.volta/bin/"
+      - "/home/fuzzbox/.asdf/shims/"
+      - "/home/fuzzbox/.local/share/pnpm/"
+      - "/home/fuzzbox/.bun/bin/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-15.2"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-15.2"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.local/bin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/bin/gcc-ranlib-15.2"
+      - "/usr/local/bin/gcc-ranlib-15.2"
+      - "/bin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.volta/bin/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.asdf/shims/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ranlib-15.2"
+      - "/home/fuzzbox/.bun/bin/gcc-ranlib-15.2"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-15"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-15"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ranlib-15"
+      - "/home/fuzzbox/.local/bin/gcc-ranlib-15"
+      - "/home/fuzzbox/bin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/bin/gcc-ranlib-15"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ranlib-15"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ranlib-15"
+      - "/home/fuzzbox/.volta/bin/gcc-ranlib-15"
+      - "/home/fuzzbox/.asdf/shims/gcc-ranlib-15"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ranlib-15"
+      - "/home/fuzzbox/.bun/bin/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib15"
+      - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib15"
+      - "/home/fuzzbox/.npm-global/bin/gcc-ranlib15"
+      - "/home/fuzzbox/.local/bin/gcc-ranlib15"
+      - "/home/fuzzbox/bin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/bin/gcc-ranlib15"
+      - "/home/fuzzbox/.nvm/current/bin/gcc-ranlib15"
+      - "/home/fuzzbox/.fnm/current/bin/gcc-ranlib15"
+      - "/home/fuzzbox/.volta/bin/gcc-ranlib15"
+      - "/home/fuzzbox/.asdf/shims/gcc-ranlib15"
+      - "/home/fuzzbox/.local/share/pnpm/gcc-ranlib15"
+      - "/home/fuzzbox/.bun/bin/gcc-ranlib15"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/usr/local/bin"
+        - "/home/fuzzbox/.local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/home/fuzzbox/.npm-global/bin"
+        - "/home/fuzzbox/bin"
+        - "/home/fuzzbox/.nvm/current/bin"
+        - "/home/fuzzbox/.fnm/current/bin"
+        - "/home/fuzzbox/.volta/bin"
+        - "/home/fuzzbox/.asdf/shims"
+        - "/home/fuzzbox/.local/share/pnpm"
+        - "/home/fuzzbox/.bun/bin"
+...
