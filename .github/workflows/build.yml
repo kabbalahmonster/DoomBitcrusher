@@ -115,3 +115,48 @@ jobs:
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-macos:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: recursive
+    
+    - name: Configure CMake
+      run: |
+        mkdir -p build
+        cd build
+        cmake .. -DCMAKE_BUILD_TYPE=Release
+    
+    - name: Build
+      run: |
+        cd build
+        cmake --build . --config Release --parallel $(sysctl -n hw.ncpu)
+    
+    - name: Package
+      run: |
+        cd build
+        mkdir -p DoomBitcrusher-macOS
+        cp -r DoomBitcrusher_artefacts/Release/VST3/DoomBitcrusher.vst3 DoomBitcrusher-macOS/ 2>/dev/null || true
+        cp -r DoomBitcrusher_artefacts/Release/Standalone/DoomBitcrusher.app DoomBitcrusher-macOS/ 2>/dev/null || true
+        tar -czf DoomBitcrusher-macOS-x64.tar.gz DoomBitcrusher-macOS/
+    
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: DoomBitcrusher-macOS-x64
+        path: build/DoomBitcrusher-macOS-x64.tar.gz
+    
+    - name: Upload to release
+      if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: build/DoomBitcrusher-macOS-x64.tar.gz
+        tag_name: v1.0.${{ github.run_number }}
+        name: DoomBitcrusher v1.0.${{ github.run_number }}
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
